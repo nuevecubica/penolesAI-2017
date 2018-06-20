@@ -130,7 +130,7 @@
 		FADC59D3209CD42400D55C50 = {
 			isa = PBXGroup;
 			children = (
-				FADC59DE209CD42400D55C50 /* Penoles DS-2017 */,
+				FADC59DE209CD42400D55C50 /* Penoles AI-2017 */,
 				FADC59DD209CD42400D55C50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FADC59DE209CD42400D55C50 /* Penoles DS-2017 */ = {
+		FADC59DE209CD42400D55C50 /* Penoles AI-2017 */ = {
 			isa = PBXGroup;
 			children = (
 				FAD4886B20A0C7CF0020E4E7 /* Classes */,
@@ -154,7 +154,7 @@
 				FADC59E8209CD42600D55C50 /* LaunchScreen.storyboard */,
 				FADC59EB209CD42600D55C50 /* Info.plist */,
 			);
-			path = "Penoles DS-2017";
+			path = "Penoles AI-2017";
 			sourceTree = "<group>";
 		};
 		FADC5A28209D1E2D00D55C50 /* videos */ = {
@@ -423,8 +423,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F4CBL5BY33;
-				INFOPLIST_FILE = "Penoles DS-2017/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				INFOPLIST_FILE = "$(SRCROOT)/Penoles AI-2017/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,8 +442,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F4CBL5BY33;
-				INFOPLIST_FILE = "Penoles DS-2017/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				INFOPLIST_FILE = "$(SRCROOT)/Penoles AI-2017/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
