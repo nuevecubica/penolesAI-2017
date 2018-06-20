@@ -24,135 +24,58 @@ class MapViewController: UIViewController {
     @IBOutlet weak var btn_metales: UIButton!
     @IBOutlet weak var btn_quimicos: UIButton!
     @IBOutlet weak var btn_minas_rentadas: UIButton!
-    @IBOutlet weak var btn_minas_cerradas: UIButton!
     @IBOutlet weak var btn_minas_restauradas: UIButton!
-    @IBOutlet weak var btn_oficinas_comerciales: UIButton!
     @IBOutlet weak var btn_subsidiarias: UIButton!
-    @IBOutlet weak var btn_sonora: UIButton!
-    @IBOutlet weak var btn_coahuila: UIButton!
-    @IBOutlet weak var btn_zacatecas: UIButton!
-    @IBOutlet weak var btn_durango: UIButton!
-    @IBOutlet weak var btn_ciudad_mexico: UIButton!
-    @IBOutlet weak var btn_chihuahua: UIButton!
-    @IBOutlet weak var btn_estado_mexico: UIButton!
-    @IBOutlet weak var btn_guerrero: UIButton!
-    @IBOutlet weak var btn_oaxaca: UIButton!
-    @IBOutlet weak var btn_tamaulipas: UIButton!
     @IBOutlet weak var scrollerView: UIScrollView!
     @IBOutlet weak var mapaScrollView: UIScrollView!
     @IBOutlet weak var downIcon: UIImageView!
+    
+    
     @IBAction func btn_exploration(_ sender: UIButton) {
-        changeImage("mapa_uni_exploracion")
+        changeImage("mapa_btn1")
         scrollerView.alpha = 0
         changeiconStatus()
     }
     @IBAction func btn_minas(_ sender: UIButton) {
-        changeImage("mapa_uni_minas")
+        changeImage("mapa_btn2")
         scrollerView.alpha = 0
         changeiconStatus()
     }
     
     @IBAction func btn_metales(_ sender: UIButton) {
-        changeImage("mapa_uni_metales")
+        changeImage("mapa_btn3")
         scrollerView.alpha = 0
         changeiconStatus()
     }
     
     @IBAction func btn_quimicos(_ sender: UIButton) {
-        changeImage("mapa_uni_quimicos")
+        changeImage("mapa_btn4")
         scrollerView.alpha = 0
         changeiconStatus()
     }
     
     @IBAction func btn_minas_rentadas(_ sender: UIButton) {
-        changeImage("mapa_uni_minas_rentadas")
+        changeImage("mapa_btn6")
         scrollerView.alpha = 0
         changeiconStatus()
     }
     
-    @IBAction func btn_minas_cerradas(_ sender: UIButton) {
-        changeImage("mapa_uni_minas_cerradas")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
     
     @IBAction func btn_minas_restauradas(_ sender: UIButton) {
-        changeImage("mapa_uni_minas_restauradas")
+        changeImage("mapa_btn5")
         scrollerView.alpha = 0
         changeiconStatus()
     }
     
-    @IBAction func btn_oficinas_comerciales(_ sender: UIButton) {
-        changeImage("mapa_uni_oficinas")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
+
     
     @IBAction func btn_subsidiarias(_ sender: UIButton) {
-        changeImage("mapa_uni_subsidiarias")
+        changeImage("mapa_btn7")
         scrollerView.alpha = 0
         changeiconStatus()
     }
     
-    @IBAction func btn_sonora(_ sender: UIButton) {
-        changeImage("mapa_est_sonora")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
-    
-    @IBAction func btn_coahuila(_ sender: UIButton) {
-        changeImage("mapa_est_coahuila")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
-    
-    @IBAction func btn_zacatecas(_ sender: UIButton) {
-        changeImage("mapa_est_zacatecas")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
-    
-    @IBAction func btn_durango(_ sender: UIButton) {
-        changeImage("mapa_est_durango")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
-    
-    @IBAction func btn_cdmx(_ sender: UIButton) {
-        changeImage("mapa_est_cdmx")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
-    
-    @IBAction func btn_chihuahua(_ sender: UIButton) {
-        changeImage("mapa_est_chihuahua")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
-    
-    @IBAction func btn_edomex(_ sender: UIButton) {
-        changeImage("mapa_est_edomex")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
-    
-    @IBAction func btn_guerrero(_ sender: UIButton) {
-        changeImage("mapa_est_guerrero")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
-    
-    @IBAction func btn_oaxaca(_ sender: UIButton) {
-        changeImage("mapa_est_oaxaca")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
-    
-    @IBAction func btn_tamaulipas(_ sender: UIButton) {
-        changeImage("mapa_est_tamaulipas")
-        scrollerView.alpha = 0
-        changeiconStatus()
-    }
+  
     
     @IBAction func all_unidades(_ sender: UIButton) {
         changeImage("all_unidades")
@@ -162,13 +85,7 @@ class MapViewController: UIViewController {
         scrollerView.setContentOffset(CGPoint.zero, animated: false)
     }
     
-    @IBAction func all_estados(_ sender: UIButton) {
-        changeImage("all_estados")
-        changeImageScroller("all_estados_scroll")
-        scrollerView.alpha = 1
-        changeiconStatus()
-        scrollerView.setContentOffset(CGPoint.zero, animated: false)
-    }
+  
     
     func changeiconStatus(){
         if scrollerView.alpha == 1 {

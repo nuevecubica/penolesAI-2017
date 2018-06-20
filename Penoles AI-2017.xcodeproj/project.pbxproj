@@ -14,17 +14,8 @@
 		CB86F7BA20D1941600B787A5 /* ImagePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB86F7B920D1941600B787A5 /* ImagePopupViewController.swift */; };
 		CB86F7BC20D197EE00B787A5 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB86F7BB20D197EE00B787A5 /* video.mp4 */; };
 		CB86F7BE20D1999D00B787A5 /* PageWithButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB86F7BD20D1999D00B787A5 /* PageWithButtonsViewController.swift */; };
+		FA1F75FF20DADDB2003081ED /* modelo_negocio_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F75FE20DADDB2003081ED /* modelo_negocio_3.swift */; };
 		FA91D4E220C21CD4002FD433 /* CoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91D4E120C21CD4002FD433 /* CoverViewController.swift */; };
-		FAAF366820D9D04F00D9DA85 /* des_social_10_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6820D9A0A2003A5D03 /* des_social_10_vid.mp4 */; };
-		FAAF366920D9D0AC00D9DA85 /* gestion_07_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6020D99E64003A5D03 /* gestion_07_vid.mp4 */; };
-		FAAF366A20D9D0AF00D9DA85 /* des_eco_03_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6520D99F32003A5D03 /* des_eco_03_vid.mp4 */; };
-		FAAF366B20D9D0B300D9DA85 /* des_eco_04_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6120D99E8D003A5D03 /* des_eco_04_vid.mp4 */; };
-		FAAF366C20D9D0B700D9DA85 /* des_amb_02_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6620D99F6B003A5D03 /* des_amb_02_vid.mp4 */; };
-		FAAF366D20D9D0BA00D9DA85 /* des_amb_05_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6220D99EA6003A5D03 /* des_amb_05_vid.mp4 */; };
-		FAAF366E20D9D0BF00D9DA85 /* des_amb_07_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6320D99ED9003A5D03 /* des_amb_07_vid.mp4 */; };
-		FAAF366F20D9D0C200D9DA85 /* des_soc_02_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6720D99F8E003A5D03 /* des_soc_02_vid.mp4 */; };
-		FAAF367020D9D0C600D9DA85 /* des_social_08_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6420D99EF8003A5D03 /* des_social_08_vid.mp4 */; };
-		FAAF367120D9D0CC00D9DA85 /* des_social_14_vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FADD7B6920D9A0F0003A5D03 /* des_social_14_vid.mp4 */; };
 		FADC59E0209CD42400D55C50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC59DF209CD42400D55C50 /* AppDelegate.swift */; };
 		FADC59E5209CD42400D55C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADC59E3209CD42400D55C50 /* Main.storyboard */; };
 		FADC59E7209CD42600D55C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADC59E6209CD42600D55C50 /* Assets.xcassets */; };
@@ -53,6 +44,7 @@
 		CB86F7B920D1941600B787A5 /* ImagePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePopupViewController.swift; sourceTree = "<group>"; };
 		CB86F7BB20D197EE00B787A5 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		CB86F7BD20D1999D00B787A5 /* PageWithButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageWithButtonsViewController.swift; sourceTree = "<group>"; };
+		FA1F75FE20DADDB2003081ED /* modelo_negocio_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelo_negocio_3.swift; sourceTree = "<group>"; };
 		FA91D4E120C21CD4002FD433 /* CoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverViewController.swift; sourceTree = "<group>"; };
 		FADC59DC209CD42400D55C50 /* Penoles AI-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penoles AI-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADC59DF209CD42400D55C50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,16 +52,6 @@
 		FADC59E6209CD42600D55C50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADC59E9209CD42600D55C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FADC59EB209CD42600D55C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FADD7B6020D99E64003A5D03 /* gestion_07_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gestion_07_vid.mp4; sourceTree = "<group>"; };
-		FADD7B6120D99E8D003A5D03 /* des_eco_04_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = des_eco_04_vid.mp4; sourceTree = "<group>"; };
-		FADD7B6220D99EA6003A5D03 /* des_amb_05_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = des_amb_05_vid.mp4; sourceTree = "<group>"; };
-		FADD7B6320D99ED9003A5D03 /* des_amb_07_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = des_amb_07_vid.mp4; sourceTree = "<group>"; };
-		FADD7B6420D99EF8003A5D03 /* des_social_08_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = des_social_08_vid.mp4; sourceTree = "<group>"; };
-		FADD7B6520D99F32003A5D03 /* des_eco_03_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = des_eco_03_vid.mp4; sourceTree = "<group>"; };
-		FADD7B6620D99F6B003A5D03 /* des_amb_02_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = des_amb_02_vid.mp4; sourceTree = "<group>"; };
-		FADD7B6720D99F8E003A5D03 /* des_soc_02_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = des_soc_02_vid.mp4; sourceTree = "<group>"; };
-		FADD7B6820D9A0A2003A5D03 /* des_social_10_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = des_social_10_vid.mp4; sourceTree = "<group>"; };
-		FADD7B6920D9A0F0003A5D03 /* des_social_14_vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = des_social_14_vid.mp4; sourceTree = "<group>"; };
 		FADD7B6A20D9A15B003A5D03 /* gestion_7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestion_7.swift; sourceTree = "<group>"; };
 		FADD7B6C20D9A32E003A5D03 /* des_eco_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = des_eco_4.swift; sourceTree = "<group>"; };
 		FADD7B6E20D9A408003A5D03 /* des_amb_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = des_amb_5.swift; sourceTree = "<group>"; };
@@ -122,6 +104,7 @@
 				CB1C440520B4FBBA00A4300D /* MapViewController.swift */,
 				FA91D4E120C21CD4002FD433 /* CoverViewController.swift */,
 				CB86F7B920D1941600B787A5 /* ImagePopupViewController.swift */,
+				FA1F75FE20DADDB2003081ED /* modelo_negocio_3.swift */,
 			);
 			name = Classes;
 			path = "New Group";
@@ -147,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				FAD4886B20A0C7CF0020E4E7 /* Classes */,
-				FADC5A28209D1E2D00D55C50 /* videos */,
 				FADC59E3209CD42400D55C50 /* Main.storyboard */,
 				FADC59E6209CD42600D55C50 /* Assets.xcassets */,
 				CB86F7BB20D197EE00B787A5 /* video.mp4 */,
@@ -155,23 +137,6 @@
 				FADC59EB209CD42600D55C50 /* Info.plist */,
 			);
 			path = "Penoles AI-2017";
-			sourceTree = "<group>";
-		};
-		FADC5A28209D1E2D00D55C50 /* videos */ = {
-			isa = PBXGroup;
-			children = (
-				FADD7B6020D99E64003A5D03 /* gestion_07_vid.mp4 */,
-				FADD7B6520D99F32003A5D03 /* des_eco_03_vid.mp4 */,
-				FADD7B6120D99E8D003A5D03 /* des_eco_04_vid.mp4 */,
-				FADD7B6620D99F6B003A5D03 /* des_amb_02_vid.mp4 */,
-				FADD7B6220D99EA6003A5D03 /* des_amb_05_vid.mp4 */,
-				FADD7B6320D99ED9003A5D03 /* des_amb_07_vid.mp4 */,
-				FADD7B6720D99F8E003A5D03 /* des_soc_02_vid.mp4 */,
-				FADD7B6420D99EF8003A5D03 /* des_social_08_vid.mp4 */,
-				FADD7B6820D9A0A2003A5D03 /* des_social_10_vid.mp4 */,
-				FADD7B6920D9A0F0003A5D03 /* des_social_14_vid.mp4 */,
-			);
-			path = videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,18 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAF366F20D9D0C200D9DA85 /* des_soc_02_vid.mp4 in Resources */,
-				FAAF366B20D9D0B300D9DA85 /* des_eco_04_vid.mp4 in Resources */,
 				FADC59EA209CD42600D55C50 /* LaunchScreen.storyboard in Resources */,
-				FAAF366E20D9D0BF00D9DA85 /* des_amb_07_vid.mp4 in Resources */,
-				FAAF367120D9D0CC00D9DA85 /* des_social_14_vid.mp4 in Resources */,
-				FAAF366820D9D04F00D9DA85 /* des_social_10_vid.mp4 in Resources */,
-				FAAF366A20D9D0AF00D9DA85 /* des_eco_03_vid.mp4 in Resources */,
-				FAAF366920D9D0AC00D9DA85 /* gestion_07_vid.mp4 in Resources */,
-				FAAF366C20D9D0B700D9DA85 /* des_amb_02_vid.mp4 in Resources */,
-				FAAF366D20D9D0BA00D9DA85 /* des_amb_05_vid.mp4 in Resources */,
 				FADC59E7209CD42600D55C50 /* Assets.xcassets in Resources */,
-				FAAF367020D9D0C600D9DA85 /* des_social_08_vid.mp4 in Resources */,
 				FADC59E5209CD42400D55C50 /* Main.storyboard in Resources */,
 				CB86F7BC20D197EE00B787A5 /* video.mp4 in Resources */,
 			);
@@ -268,6 +223,7 @@
 				FADD7B7720D9AB5D003A5D03 /* des_soc_2.swift in Sources */,
 				CB86F7BA20D1941600B787A5 /* ImagePopupViewController.swift in Sources */,
 				CB86F7BE20D1999D00B787A5 /* PageWithButtonsViewController.swift in Sources */,
+				FA1F75FF20DADDB2003081ED /* modelo_negocio_3.swift in Sources */,
 				FADD7B6D20D9A32E003A5D03 /* des_eco_4.swift in Sources */,
 				FADD7B6F20D9A408003A5D03 /* des_amb_5.swift in Sources */,
 				FADD7B7320D9A52E003A5D03 /* des_soc_8.swift in Sources */,
@@ -429,7 +385,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nuevecubica.penoles.ia.2018.esp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuevecubica.penoles.ia.2017.esp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -448,7 +404,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nuevecubica.penoles.ia.2018.esp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuevecubica.penoles.ia.2017.esp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 2;
