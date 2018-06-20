@@ -54,7 +54,7 @@
 		CB86F7BB20D197EE00B787A5 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		CB86F7BD20D1999D00B787A5 /* PageWithButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageWithButtonsViewController.swift; sourceTree = "<group>"; };
 		FA91D4E120C21CD4002FD433 /* CoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverViewController.swift; sourceTree = "<group>"; };
-		FADC59DC209CD42400D55C50 /* Penoles DS-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penoles DS-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADC59DC209CD42400D55C50 /* Penoles AI-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penoles AI-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADC59DF209CD42400D55C50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADC59E4209CD42400D55C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FADC59E6209CD42600D55C50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		FADC59DD209CD42400D55C50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FADC59DC209CD42400D55C50 /* Penoles DS-2017.app */,
+				FADC59DC209CD42400D55C50 /* Penoles AI-2017.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,9 +177,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FADC59DB209CD42400D55C50 /* Penoles DS-2017 */ = {
+		FADC59DB209CD42400D55C50 /* Penoles AI-2017 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FADC59EE209CD42600D55C50 /* Build configuration list for PBXNativeTarget "Penoles DS-2017" */;
+			buildConfigurationList = FADC59EE209CD42600D55C50 /* Build configuration list for PBXNativeTarget "Penoles AI-2017" */;
 			buildPhases = (
 				FADC59D8209CD42400D55C50 /* Sources */,
 				FADC59D9209CD42400D55C50 /* Frameworks */,
@@ -189,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = "Penoles DS-2017";
+			name = "Penoles AI-2017";
 			productName = "Penoles DS-2017";
-			productReference = FADC59DC209CD42400D55C50 /* Penoles DS-2017.app */;
+			productReference = FADC59DC209CD42400D55C50 /* Penoles AI-2017.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FADC59D7209CD42400D55C50 /* Build configuration list for PBXProject "Penoles DS-2017" */;
+			buildConfigurationList = FADC59D7209CD42400D55C50 /* Build configuration list for PBXProject "Penoles AI-2017" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FADC59DB209CD42400D55C50 /* Penoles DS-2017 */,
+				FADC59DB209CD42400D55C50 /* Penoles AI-2017 */,
 			);
 		};
 /* End PBXProject section */
@@ -458,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FADC59D7209CD42400D55C50 /* Build configuration list for PBXProject "Penoles DS-2017" */ = {
+		FADC59D7209CD42400D55C50 /* Build configuration list for PBXProject "Penoles AI-2017" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FADC59EC209CD42600D55C50 /* Debug */,
@@ -467,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FADC59EE209CD42600D55C50 /* Build configuration list for PBXNativeTarget "Penoles DS-2017" */ = {
+		FADC59EE209CD42600D55C50 /* Build configuration list for PBXNativeTarget "Penoles AI-2017" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FADC59EF209CD42600D55C50 /* Debug */,
