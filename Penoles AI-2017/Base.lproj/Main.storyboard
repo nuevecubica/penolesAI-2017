@@ -400,6 +400,6 @@
         <image name="all_unidades_scroll" width="234" height="972"/>
         <image name="down_arrow" width="26" height="26"/>
         <image name="hamburger" width="20" height="10"/>
-        <image name="mapa-solo" width="910" height="682"/>
+        <image name="mapa-solo" width="2732" height="2048"/>
     </resources>
 </document>
