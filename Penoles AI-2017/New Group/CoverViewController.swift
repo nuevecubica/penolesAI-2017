@@ -45,12 +45,7 @@ class CoverViewController: UIViewController {
         super.viewDidLoad()
         textImageCover.alpha = 0
         frontImageCover.alpha = 0
-        
-        /*
-        oBg = "desemp_ambiental_bg"
-        oFront =  "desemp_ambiental_title"
-        oTitle = "desemp_ambiental_front"
-        */
+
         changeImageBGCover(oBg,oTitle,oFront)
     }
     

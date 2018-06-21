@@ -40,7 +40,7 @@ class PageNavigationViewController: UIViewController {
            // ImagePage(imageName: "portada"),
             CoverPage(theBg: "cover_bg", theFront: "cover_title", theTitle: "cover_front"),
             ]),
-        Section(name: "Perfil Corporativo", pages: [
+        Section(name: "Perfil corporativo", pages: [
             ImagePage(imageName: "perfil_corp_pag1"),
             ImagePage(imageName: "perfil_corp_pag2"),
             MapPage(),
@@ -91,19 +91,16 @@ class PageNavigationViewController: UIViewController {
             CoverPage(theBg: "ng_cover_bg", theFront: "ng_cover_front", theTitle: "ng_cover_title"),
             ImagePage(imageName: "nuestra_gente_pag1"),
             ]),
-        Section(name: "Gobierno Corporativo", pages: [
+        Section(name: "Gobierno corporativo", pages: [
             CoverPage(theBg: "gc_cover_bg", theFront: "gc_cover_front", theTitle: "gc_cover_title"),
             ImagePage(imageName: "gob_corp_pag1"),
             ImagePage(imageName: "gob_corp_pag2"),
-            ]),
-        Section(name: "Ejecutivos", pages: [
-            ImagePage(imageName: "ejecutivos_pag1"),
             ]),
         Section(name: "Equipo directivo", pages: [
             ImagePage(imageName: "ejecutivos_pag1"),
             ]),
         Section(name: "Consejo de Administración", pages: [
-            ImagePage(imageName: "ejecutivos_pag1"),
+            ImagePage(imageName: "consejo_admon_pag1"),
             ]),
         Section(name: "Análisis y discusión de resultados ", pages: [
             ImagePage(imageName: "analisis_res_pag1"),
