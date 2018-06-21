@@ -37,8 +37,8 @@ class res_operacion_15ViewController: PageWithButtonsViewController {
         
         // Image coords divided by 3
         NSLayoutConstraint.activate([
-            button_cfs.leadingAnchor.constraint(equalTo: imageView.leadingAnchor, constant: 854.9 * imageScale),
-            button_cfs.topAnchor.constraint(equalTo: imageView.topAnchor, constant:  454.0 * imageScale)
+            button_cfs.leadingAnchor.constraint(equalTo: imageView.leadingAnchor, constant: 750.9 * imageScale),
+            button_cfs.topAnchor.constraint(equalTo: imageView.topAnchor, constant:  260.0 * imageScale)
             ])
         //*************************************
         
@@ -50,7 +50,7 @@ class res_operacion_15ViewController: PageWithButtonsViewController {
     //*****************************************
     
     @IBAction func button_cfs_Pressed(_ sender: UIButton) {
-        showImagePopup(image:#imageLiteral(resourceName: "mn_CifrasFinancierasSobresalientes"))
+        showImagePopup(image:#imageLiteral(resourceName: "res_ope_pag18_CifrasFinancierasSobresalientes"))
         //showVideoPopup(videoName: "video")
     }
     
